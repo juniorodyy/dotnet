@@ -23,8 +23,8 @@ namespace console_dotnet
                 else{
                 System.Console.WriteLine("É menor que dez");
                 }
-                Program p = new Program();
-                System.Console.WriteLine(p.calculo(4,4)):
+                Calculadora p = new Calculadora();
+                System.Console.WriteLine(p.calculo(4,4));
         }
     }
 }
