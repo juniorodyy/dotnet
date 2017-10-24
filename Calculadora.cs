@@ -6,5 +6,12 @@ namespace console_dotnet
         public int calculo(int a, int b){
             return (a * b);
         }
+        public int calculo2(int a, int b){
+            return (a + b);
+        }
+         public int calculo3(int a, int b){
+            return (a - b);
+        }
+    
     }
 }

@@ -25,6 +25,10 @@ namespace console_dotnet
                 }
                 Calculadora p = new Calculadora();
                 System.Console.WriteLine(p.calculo(4,4));
-        }
+                
+                System.Console.WriteLine(p.calculo2(5,5));
+        
+                System.Console.WriteLine(p.calculo3(8,5));
+        }       
     }
 }
