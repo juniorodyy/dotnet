@@ -4,20 +4,22 @@ namespace console_dotnet
 {
     class Humano 
     {
-        public int randomicos(int a, int b)
+        public void randomicos(int a, int b)
         {
           Random t = new Random();
           int j = t.Next(a, b);
           int u = t.Next(a, b);
           int soma = j + u;         
-          System.Console.WriteLine(j + "+" + r);
+          System.Console.WriteLine(j + "+" + u);
 
-          int resp = convert.ToInt32(Console_ReadLine()):
+          int resp = Convert.ToInt32(Console.ReadLine());
 
           if (resp == soma) {
-              System.Console.WriteLine("Acesso liberado")
-          }
-
+              System.Console.WriteLine("Acesso liberado");
+            }
+            else {
+                System.Console.WriteLine("Acesso negado");
+            }
         }
     }
 }

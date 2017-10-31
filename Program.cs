@@ -29,6 +29,12 @@ namespace console_dotnet
                 System.Console.WriteLine(p.calculo2(5,5));
         
                 System.Console.WriteLine(p.calculo3(8,5));
-        }       
+       
+                
+                Humano t = new Humano();
+                t.randomicos(0,9);
+       
+        }      
+
     }
 }
